@@ -1,0 +1,113 @@
+
+section{
+    font-family: 'Raleway', sans-serif;
+}
+/* navbar */
+nav, .nav{
+    margin: 0;
+    padding: 0;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 12px;
+    margin: 0;
+}
+
+
+.navbar-brand:hover{
+    background-color: royalblue;
+}
+
+/* Intro Section */
+#intro{
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    color: white;
+    box-sizing: border-box;
+
+}
+.intro-sec .container-fluid{
+    padding-top: 22%;
+}
+.intro-sec h1{
+    font-size: 66px;
+    font-weight: bold;
+}
+.intro-sec p{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 100;
+}
+.row-cols-1 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.section-1{
+    background-color: #5c6876;
+    height: fit-content;
+}
+.section-1 h1{
+    padding: 80px;
+}
+.show-all-button{
+    width: 100%;
+    height: 250px;
+}
+.section-1 hr{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -80px;
+    margin-bottom: 50px;
+}
+.show-all-button .row{
+    margin-top: 7%;
+    box-sizing: border-box;
+}
+.section-1 button{
+    margin: auto;
+}
+.section-1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.section-2{
+    height: fit-content;
+    width: 100%;
+}
+.row1 h1{
+    font-size: 67px;
+    font-family: sans-serif;
+}
+.row1 p{
+    font-size: 22px;
+}
+.row1 .text-sec2{
+    margin-top: 100px;
+}
+ul{
+    list-style: none;
+}
+hr{
+   border: 4px solid deeppink;
+   width: 100%;
+}
+.socials{
+    margin-top: 100px;
+}
+.socials p{
+    font-size: 30px;
+}
+.socials img{
+    width: 14%;
+    height: 50%;
+    margin-top: 8px;
+}
+.footer p{
+    font-size: 20px;
+}
